@@ -18,16 +18,16 @@ const indexRoutes = require("./routes/index");
 //   .catch((err) => console.log(err));
 
 //atlas config
-mongoose
-  .connect(
-    "mongodb+srv://cruce_challenge:cruce@cluster0.x84e8.mongodb.net/cruce_challenge?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
-  .then((db) => console.log("db connected"))
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect(
+//     "mongodb+srv://cruce_challenge:cruce@cluster0.x84e8.mongodb.net/cruce_challenge?retryWrites=true&w=majority",
+//     {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     }
+//   )
+//   .then((db) => console.log("db connected"))
+//   .catch((err) => console.log(err));
 
 app.use(volleyball);
 
